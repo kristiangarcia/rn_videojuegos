@@ -1,0 +1,166 @@
+{
+  "sistemas": [
+    {
+      "id": "ps5",
+      "nombre": "PlayStation 5",
+      "icono": "sony-playstation"
+    },
+    {
+      "id": "xbox",
+      "nombre": "Xbox Series X/S",
+      "icono": "microsoft-xbox"
+    },
+    {
+      "id": "switch",
+      "nombre": "Nintendo Switch",
+      "icono": "nintendo-switch"
+    },
+    {
+      "id": "pc",
+      "nombre": "PC",
+      "icono": "desktop-tower"
+    }
+  ],
+  "videojuegos": [
+    {
+      "nombre": "Helldivers 2",
+      "descripcion": "Shooter cooperativo en tercera persona centrado en el trabajo en equipo.\nLos jugadores deben completar misiones en planetas hostiles.\nLa coordinación y la estrategia son claves para sobrevivir.",
+      "marca": "Sony",
+      "año": 2024,
+      "caratula": "https://gaming-cdn.com/images/products/9575/orig/helldivers-2-pc-juego-steam-europe-us-canada-cover.jpg?v=1732563825",
+      "prestado": "",
+      "sistemaId": "ps5",
+      "id": "v1"
+    },
+    {
+      "nombre": "Skate (2025)",
+      "descripcion": "Reinicio moderno de la saga Skate con mundo abierto.\nOfrece un sistema de trucos realista y controles precisos.\nEstá diseñado como una experiencia social y en constante evolución.",
+      "marca": "EA",
+      "año": 2025,
+      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS854wr-s9U3qfFAsQESvjNLbbA4qzq0FHDuQ&s",
+      "prestado": "",
+      "sistemaId": "xbox",
+      "id": "v2"
+    },
+    {
+      "id": "v3",
+      "nombre": "Split Fiction",
+      "sistemaId": "ps5",
+      "marca": "EA Originals",
+      "descripcion": "Aventura cooperativa narrativa con dos protagonistas.\nLa historia se desarrolla en mundos de ciencia ficción conectados.\nEl juego enfatiza la cooperación y la toma de decisiones conjuntas.",
+      "caratula": "https://i.ytimg.com/vi/bPOUuqrNarI/maxresdefault.jpg",
+      "año": 2025,
+      "prestado": "Lucía Fernández"
+    },
+    {
+      "id": "v4",
+      "nombre": "Blue Prince",
+      "sistemaId": "pc",
+      "marca": "Raw Fury",
+      "descripcion": "Juego de puzzles con exploración en escenarios cambiantes.\nCada decisión altera la estructura del mundo y sus desafíos.\nDestaca por su atmósfera misteriosa y diseño artístico.",
+      "caratula": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1768224150",
+      "año": 2025,
+      "prestado": ""
+    },
+    {
+      "id": "v5",
+      "nombre": "Hades II",
+      "sistemaId": "pc",
+      "marca": "Supergiant Games",
+      "descripcion": "Secuela del aclamado roguelike de acción Hades.\nIntroduce nuevos personajes, habilidades y escenarios.\nMantiene una narrativa profunda integrada al combate rápido.",
+      "caratula": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1765831644",
+      "año": 2025,
+      "prestado": ""
+    },
+    {
+      "id": "v6",
+      "nombre": "Dragon Ball: Sparking! Zero",
+      "sistemaId": "switch",
+      "marca": "Bandai Namco",
+      "descripcion": "Juego de lucha inspirado en la saga Budokai Tenkaichi.\nIncluye un amplio plantel de personajes del universo Dragon Ball.\nCombates espectaculares con escenarios altamente destructibles.",
+      "caratula": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg?t=1758754863",
+      "año": 2024,
+      "prestado": "Miguel Rodríguez"
+    },
+    {
+      "id": "v7",
+      "nombre": "The Last of Us Part II Remastered",
+      "sistemaId": "ps5",
+      "marca": "Naughty Dog",
+      "descripcion": "Versión remasterizada del exitoso juego de acción narrativa.\nMejora gráficos, rendimiento y tiempos de carga.\nIncluye contenido adicional y nuevas opciones de accesibilidad.",
+      "caratula": "https://gaming-cdn.com/images/products/18565/380x218/the-last-of-us-part-ii-remastered-pc-juego-steam-us-ca-cover.jpg?v=1743757419",
+      "año": 2025,
+      "prestado": ""
+    },
+    {
+      "id": "v8",
+      "nombre": "Forza Motorsport",
+      "sistemaId": "xbox",
+      "marca": "Turn 10 Studios",
+      "descripcion": "Simulador de conducción enfocado en el realismo.\nOfrece una gran variedad de coches y circuitos detallados.\nEl sistema de físicas y progresión evoluciona con el tiempo.",
+      "caratula": "https://cms-assets.xboxservices.com/assets/10/40/1040c811-0c5f-4897-aceb-3855f79b561c.jpg?n=Forza-Motorsport_Sneaky-Slider-1084_20th-Anniversary-keyart_1600x675.jpg%202",
+      "año": 2023,
+      "prestado": "Ana López"
+    },
+    {
+      "id": "v9",
+      "nombre": "Final Fantasy VII Rebirth",
+      "sistemaId": "ps5",
+      "marca": "Square Enix",
+      "descripcion": "Segunda parte del remake de Final Fantasy VII.\nExpande la historia original con un mundo más abierto.\nCombina acción en tiempo real con elementos clásicos de RPG.",
+      "caratula": "https://image.api.playstation.com/vulcan/ap/rnd/202308/3009/da43e71791bcf4e8cd5ca28e62a5c96a9fc77ee6af15b8f6.jpg",
+      "año": 2024,
+      "prestado": ""
+    },
+    {
+      "id": "v10",
+      "nombre": "EA SPORTS FC 25",
+      "sistemaId": "pc",
+      "marca": "Electronic Arts",
+      "descripcion": "Nueva entrega del simulador de fútbol de EA.\nIncluye mejoras en IA, físicas y modos de juego.\nOfrece licencias oficiales y opciones competitivas online.",
+      "caratula": "https://i.ytimg.com/vi/QrID0EA3hhI/maxresdefault.jpg",
+      "año": 2025,
+      "prestado": "David Gómez"
+    },
+    {
+      "id": "9356ee17-aa2b-4863-adf5-b269a76513bc",
+      "nombre": "",
+      "marca": "",
+      "descripcion": "",
+      "caratula": "",
+      "año": 0,
+      "prestado": "",
+      "sistemaId": ""
+    },
+    {
+      "id": "ae12a5c1-afe1-4a6b-932c-3f03f77da74d",
+      "nombre": "",
+      "marca": "",
+      "descripcion": "",
+      "caratula": "",
+      "año": 0,
+      "prestado": "",
+      "sistemaId": ""
+    },
+    {
+      "id": "a28679e1-834a-4616-9345-e3cd1548ff0b",
+      "nombre": "test",
+      "marca": "test",
+      "descripcion": "test",
+      "caratula": "test",
+      "año": 5,
+      "prestado": "",
+      "sistemaId": "ps5"
+    },
+    {
+      "id": "3989a4ed-4efe-4b9a-9cd9-64bc1fbce0ab",
+      "nombre": "",
+      "marca": "",
+      "descripcion": "",
+      "caratula": "",
+      "año": 0,
+      "prestado": "",
+      "sistemaId": ""
+    }
+  ]
+}
