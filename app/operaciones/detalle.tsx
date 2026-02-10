@@ -71,7 +71,7 @@ export default function Detalle() {
                         <Text variant='headlineSmall'>{videojuegoSeleccionado.datos.nombre}</Text>
                         <Text variant='bodyMedium'>{videojuegoSeleccionado.datos.marca} {videojuegoSeleccionado.datos.año}</Text>
                         <View className='flex-row'>
-                            <Icon source={videojuegoSeleccionado.datos.sistema.logotipo} size={32} color={tema.colors.primary}></Icon>
+                            <Icon source={videojuegoSeleccionado.datos.sistema.icono} size={32} color={tema.colors.primary}></Icon>
                             <Text variant='bodyMedium'>{videojuegoSeleccionado.datos.sistema.nombre}</Text>
                         </View>
                         {

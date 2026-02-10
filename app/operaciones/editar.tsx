@@ -100,7 +100,7 @@ export default function Editar() {
                                     <TextInput
                                         editable={false}
                                         value={sistema.nombre}
-                                        right={<TextInput.Icon icon={videojuegoSeleccionado.datos.sistema.logotipo} />}
+                                        right={<TextInput.Icon icon={videojuegoSeleccionado.datos.sistema.icono} />}
                                     />
                                 </Pressable>
                             }>
@@ -108,7 +108,7 @@ export default function Editar() {
                                 <Menu.Item
                                     key={s.id}
                                     title={s.nombre}
-                                    leadingIcon={() => <Icon size={24} source={s.logotipo} />}
+                                    leadingIcon={() => <Icon size={24} source={s.icono} />}
                                     onPress={() => {
                                         setSistema(s);
                                         setMenuVisible(false);

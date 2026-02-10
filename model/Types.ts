@@ -1,7 +1,7 @@
 export type Sistema = {
     id:string
     nombre:string
-    logotipo:string
+    icono:string
 }
 
 export type Videojuego = {

@@ -12,7 +12,7 @@ export async function consultarSistemas():Promise<Sistemas>{
 }
 
 export async function consultarVideojuegos():Promise<Videojuegos>{
-    const url = `http://${IP}:3000/videojuegos?_expand=sistema`
+    const url = `http://${IP}:3000/videojuegos?_embed=sistema`
     const respuesta = await axios.get(url)
     return respuesta.data.map((v:any) => ({
         id:v.id,

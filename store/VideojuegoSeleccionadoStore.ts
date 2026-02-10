@@ -9,7 +9,7 @@ type VideojuegoSeleccionadoStore = {
 const sistemaNulo = {
     id: "",
     nombre: "",
-    logotipo: "",
+    icono: "",
 }
 
 const datosNulos = {

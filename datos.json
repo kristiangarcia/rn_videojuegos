@@ -121,46 +121,6 @@
       "caratula": "https://i.ytimg.com/vi/QrID0EA3hhI/maxresdefault.jpg",
       "año": 2025,
       "prestado": "David Gómez"
-    },
-    {
-      "id": "9356ee17-aa2b-4863-adf5-b269a76513bc",
-      "nombre": "",
-      "marca": "",
-      "descripcion": "",
-      "caratula": "",
-      "año": 0,
-      "prestado": "",
-      "sistemaId": ""
-    },
-    {
-      "id": "ae12a5c1-afe1-4a6b-932c-3f03f77da74d",
-      "nombre": "",
-      "marca": "",
-      "descripcion": "",
-      "caratula": "",
-      "año": 0,
-      "prestado": "",
-      "sistemaId": ""
-    },
-    {
-      "id": "a28679e1-834a-4616-9345-e3cd1548ff0b",
-      "nombre": "test",
-      "marca": "test",
-      "descripcion": "test",
-      "caratula": "test",
-      "año": 5,
-      "prestado": "",
-      "sistemaId": "ps5"
-    },
-    {
-      "id": "3989a4ed-4efe-4b9a-9cd9-64bc1fbce0ab",
-      "nombre": "",
-      "marca": "",
-      "descripcion": "",
-      "caratula": "",
-      "año": 0,
-      "prestado": "",
-      "sistemaId": ""
     }
   ]
 }
