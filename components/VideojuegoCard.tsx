@@ -1,7 +1,7 @@
 import { View } from 'react-native'
 import React from 'react'
 import { Videojuego } from '@/model/Types'
-import { Text, Badge, Card, Chip, Button } from 'react-native-paper';
+import { Text, Badge, Card, Chip, Button, Icon } from 'react-native-paper';
 
 export default function VideojuegoCard(
     videojuego: Videojuego,
@@ -14,15 +14,15 @@ export default function VideojuegoCard(
         <Card>
             <Card.Cover source={{ uri: videojuego.datos.caratula }} resizeMode="stretch" style={{ marginBottom: 20 }} />
             <Card.Content>
-                <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
+                <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' }}>
                     <Text variant="titleLarge">{videojuego.datos.nombre}</Text>
-                    <Chip>{videojuego.datos.sistema.nombre}</Chip>
+                    <Chip><Icon source={videojuego.datos.sistema.icono} size={16} color={primaryColor}/> {videojuego.datos.sistema.nombre}</Chip>
                 </View>
-                <View>
-                    <Text variant="bodyMedium">{videojuego.datos.año}</Text>
+                <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
+                    <Text variant="bodyMedium">{videojuego.datos.año} </Text>
                     <Badge style={{ backgroundColor: videojuego.datos.prestado === '' ? primaryColor : '#D32F2F' }}>
                         {
-                            videojuego.datos.prestado === "" ? "" : "Prestado a " + videojuego.datos.prestado
+                            videojuego.datos.prestado === "" ? "Disponible" : "Prestado a " + videojuego.datos.prestado
                         }
                     </Badge>
                     <Text variant="bodyMedium" numberOfLines={3}>

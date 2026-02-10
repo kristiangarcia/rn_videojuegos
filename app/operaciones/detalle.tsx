@@ -53,7 +53,7 @@ export default function Detalle() {
                 headerRight: () => (
                 <View className='flex-row'>
                     <IconButton icon="pencil" size={24} iconColor={tema.colors.onPrimary} onPress={() => router.push('/operaciones/editar')}/>
-                    <IconButton icon="delete" size={24} iconColor={tema.colors.onPrimary}/>
+                    <IconButton icon="delete" size={24} iconColor={tema.colors.onPrimary} onPress={() => accionBorrarVideojuego(videojuegoSeleccionado.id)}/>
                 </View>),
                 animation: 'none',
                 headerStyle: { backgroundColor: tema.colors.primary },
@@ -77,7 +77,7 @@ export default function Detalle() {
                         {
                             videojuegoSeleccionado.datos.prestado !== ""
                                 ? <Chip>Prestado a {videojuegoSeleccionado.datos.prestado}</Chip>
-                                : <Chip><Icon source={'check-outlined'} size={32}/>Disponible</Chip>
+                                : <Chip><Icon source={'check-outline'} size={32}/>Disponible</Chip>
                         }
                     </Card.Content>
                 </Card>

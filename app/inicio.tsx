@@ -42,7 +42,6 @@ export default function Inicio() {
         <>
             <Stack.Screen
                 options={{
-                    title: 'Inicio',
                     animation: 'fade',
                     headerStyle: { backgroundColor: tema.colors.primary },
                     headerTintColor: tema.colors.onPrimary,
